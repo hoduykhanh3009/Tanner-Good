@@ -1,0 +1,647 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#container {
+    width: 100vw;
+    position: relative;
+    margin: auto;
+}
+
+/* header css */
+#header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    max-width: 176px;
+    position: absolute;
+    left: 0.6%;
+    width: 17%;
+}
+
+#header #menu1 {
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+#header #menu1 li {
+    display: inline-block;
+    margin-right: 2.23%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.item1 a {
+    color: black;
+}
+
+.item2 a {
+    color: aliceblue;
+}
+
+
+
+/* End header css */
+
+/* content1 css */
+#content1 {
+    width: 100%;
+    background: url("../Sources/Image/Hinh1.jpg") no-repeat top center;
+    background-size: cover;
+    display: inline-block;
+    padding: 18% 0;
+    position: relative;
+}
+
+#content1_item {
+    margin-left: 18%;
+}
+
+#content1_item h1 {
+    margin: 1% 0 2% 0;
+}
+
+#content1_item a {
+    margin-left: 100px;
+    color: antiquewhite;
+}
+
+#content1 #menu2 {
+    position: absolute;
+    top: 31%;
+    font-size: 13pt;
+    padding: 5%;
+}
+
+#content1 #menu2 li {
+    border-radius: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#content1 #menu2 li:first-child {
+    background: #fff;
+    padding: 10px;
+}
+
+#content1 #menu2 li a {
+    color: grey;
+    font-size: 16px;
+}
+
+#content1 #menu2 li:first-child a {
+    font-size: 27px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* End Content 1 css */
+
+/* content2 css */
+#content2 {
+    margin-top: 10%;
+    width: 100%;
+    background: url("../Sources/Image/Hinh2.jpg") no-repeat left top;
+    background-size: 65%;
+    display: inline-block;
+    padding: 3% 0;
+    position: relative;
+    height: 256px;
+}
+
+#content2_item {
+    border: 2px solid #cc9966;
+    width: 46%;
+    text-align: right;
+    padding: 1%;
+    float: right;
+    margin-right: 5%;
+    position: relative;
+}
+
+#content2_item div {
+    position: absolute;
+    left: -22%;
+    color: #fff;
+    top: 29%;
+}
+
+
+#content2_item p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(84, 82, 82);
+    line-height: 2.724;
+    text-align: left;
+    float: right;
+    width: 320px;
+}
+
+
+
+/*End Content2 css */
+
+/* content3 css */
+#content3 {
+    margin: 10% 0;
+    width: 100%;
+    background: gray url("../Sources/Image/Hinh3.jpg") no-repeat right center;
+    background-size: 65%;
+    display: inline-block;
+    padding: 10% 0;
+    position: relative;
+    height: 256px;
+}
+
+#content3_item {
+    border: 2px solid #cc9966;
+    width: 46%;
+    text-align: right;
+    padding: 1%;
+    float: left;
+    margin-right: 5%;
+    position: relative;
+}
+
+#content3_item div {
+    position: absolute;
+    right: -22%;
+    color: #fff;
+    top: 29%;
+    text-align: left;
+}
+
+
+#content3_item p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(84, 82, 82);
+    line-height: 2.724;
+    text-align: left;
+    float: left;
+    /* margin-right: 300px; */
+    width: 320px;
+}
+
+
+
+
+/* End content3 css */
+
+/* tanner collection css */
+#tanner_collection {
+    width: 90%;
+    display: inline-block;
+    padding: 0 5%;
+}
+
+#tanner_collection h1 {
+    color: #000;
+    font-size: 33px;
+    text-align: center;
+}
+
+#tanner_collection p.navy {
+    text-align: right;
+    background: antiquewhite;
+    float: right;
+    margin-right: 10%;
+    padding-right: 10%;
+}
+
+#nomad_duffle {
+    display: inline-block;
+    width: 100%;
+}
+
+.number {
+    font-size: 30px;
+    color: gray;
+    margin-left: 16px;
+}
+
+#nomad_duffle img {
+    float: left;
+    width: 70%;
+    margin-top: -25px;
+}
+
+#nomad_duffle div {
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 10%;
+
+}
+
+#nomad_duffle div p {
+    padding: 15px 0;
+}
+
+#nomad_duffle div a {
+    font-weight: bold;
+    font-size: 10px;
+    color: #000;
+}
+
+/* End nomad duffle css */
+
+/* spruce_salt css */
+
+#spruce_salt {
+    display: inline-block;
+    width: 100%;
+    margin-top: -10%;
+}
+
+#spruce_salt img {
+    float: right;
+    width: 40%;
+
+}
+
+#spruce_salt div {
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    margin-top: 10%;
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+
+}
+
+#spruce_salt div p {
+    padding: 15px 0;
+}
+
+#spruce_salt div a {
+    font-weight: bold;
+    font-size: 10px;
+    color: #000;
+}
+
+/* End spruce css */
+
+/* Field camera bag css */
+#field_camera_bag {
+    display: inline-block;
+    width: 100%;
+
+}
+
+#field_camera_bag img {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+
+}
+
+#field_camera_bag div {
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    width: 40%;
+    float: right;
+    margin-top: 3%;
+
+
+
+}
+
+#field_camera_bag div p {
+    padding: 15px 0;
+}
+
+#field_camera_bag div a {
+    font-weight: bold;
+    font-size: 10px;
+    color: #000;
+}
+
+/* End field_camera_bag */
+
+/* voyager_daypack css */
+#voyager_daypack {
+    display: inline-block;
+    width: 100%;
+}
+
+#voyager_daypack img {
+    float: right;
+    width: 40%;
+
+}
+
+#voyager_daypack span {
+    display: block;
+    /* overflow: hidden; */
+    text-shadow: 2px 4px 4px #000;
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    margin-top: 7%;
+    width: 101px;
+    margin-right: 4%;
+
+}
+
+/* End voyager daypack css  */
+
+/* slide css */
+#slide {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#slide li {
+    width: 15%;
+}
+
+#slide li img {
+    width: 100%;
+}
+
+
+
+/* End slide css */
+
+/* footer css */
+#footer {
+
+    background-color: #eee4e4;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+#footer img {
+    width: 130px;
+    padding: 30px 0 20px 50px;
+    float: left;
+}
+
+
+#suppost {
+    float: left;
+    margin-top: 35px;
+    margin-left: 100px;
+
+}
+
+#suppost li {
+    display: inline-block;
+    color: #525151;
+    padding: 0 20px 0 20px;
+}
+
+#suppost li a {
+    color: black;
+    font-size: 14px;
+}
+
+#suppost li:nth-child(1) {
+    font-weight: bold;
+    color: black;
+}
+
+#info {
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+#info li:nth-child(1) {
+    font-weight: bold;
+}
+
+#register {
+    float: right;
+    width: 136px;
+    font-size: 11px;
+    margin-top: 35px;
+}
+
+#register span {
+    font-weight: bold;
+}
+
+#register p {
+    padding: 10px 0 10px 0;
+}
+
+#register input {
+    width: 95%;
+}
+
+#register button {
+    background-color: black;
+    color: #ffffff;
+    padding: 0 9px 0 9px;
+}
+
+#footer label {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+#social_network {
+    display: inline-block;
+    width: 96%;
+    text-align: left;
+    margin-left: 4%;
+}
+
+#social_network li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+#social_network li:nth-child(2) {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1145px) {
+
+    #content2 {
+        background-size: cover;
+        height: 100%;
+    }
+
+    #content3 {
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1068px) {
+    #header #menu1 {
+        margin-left: 0;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    #content2 {
+
+        padding: 3% 0;
+    }
+
+    #content2_item {
+        width: 80%;
+    }
+
+    #content2_item div {
+        position: relative;
+        left: 0;
+    }
+
+    #content2_item p {
+        color: #fff;
+    }
+
+    #content3_item {
+        width: 80%;
+    }
+
+    #content3_item div {
+        position: relative;
+        left: 0;
+    }
+
+    #content3_item p {
+        color: #fff;
+    }
+
+    #spruce_salt img,
+    #field_camera_bag img {
+        width: 55%;
+    }
+
+    #voyager_daypack img {
+        width: 74%;
+    }
+
+    #field_camera_bag img {
+        margin-left: 0;
+    }
+
+    #slide li:last-child,
+    #slide li:nth-child(5),
+    #slide li:nth-child(4) {
+        display: none;
+    }
+
+    #slide li {
+        width: 30%;
+    }
+
+    #register {
+        float: left;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #header #menu1 li {
+        font-size: 9pt;
+    }
+
+    #content1 #menu2 {
+        top: 20%;
+    }
+
+    #nomad_duffle div {
+        margin-top: 0;
+    }
+
+    #slide li:nth-child(3) {
+        display: none;
+    }
+
+    #slide li {
+        width: 49%;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #footer img {
+        float: none;
+    }
+
+    #suppost {
+        float: none;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 555px) {
+    #spruce_salt {
+        top: inherit;
+    }
+
+    #nomad_duffle img,
+    #spruce_salt img,
+    #field_camera_bag img,
+    #voyager_daypack img {
+        width: 100%;
+    }
+
+    #nomad_duffle div {
+        display: inline-block;
+        margin-left: 20px;
+
+    }
+
+    #spruce_salt div {
+        display: inline-block;
+        margin-right: 20px;
+        float: none;
+        width: 100%;
+    }
+
+    #field_camera_bag div {
+        display: inline-block;
+        margin-left: 20px;
+        float: none;
+        width: 100%;
+    }
+
+    #voyager_daypack span {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #slide li:nth-child(2) {
+        display: none;
+    }
+
+    #slide li {
+        width: 100%;
+    }
+}
